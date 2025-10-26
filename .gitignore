@@ -1,55 +1,48 @@
-# Prerequisites
-*.d
+# ESP-IDF build system
+/build/
+/dist/
+/managed_components/
+/dependencies.lock
+/sdkconfig.old
+/CMakeCache.txt
+/CMakeFiles/
+/cmake_install.cmake
+/Makefile
 
-# Object files
+# Compiled object files and libraries
 *.o
-*.ko
 *.obj
 *.elf
-
-# Linker output
-*.ilk
+*.bin
 *.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
 *.a
-*.la
-*.lo
+*.ld
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# Python virtual environment (usado pelo ESP-IDF)
+.env/
+.venv/
+/__pycache__/
+/python_env/
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# VS Code files
+.vscode/
+*.code-workspace
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# Logs e temporários
+*.log
+*.tmp
+*.swp
+*.swo
+*~
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Backup files
+*.bak
 
-# debug information files
-*.dwo
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Optional: ignore local notes or documentation
+notes/
+local_*/
+
