@@ -1,0 +1,19 @@
+{
+  "idf.openOcdConfigs": [
+    "board/esp32s2-kaluga-1.cfg"
+  ],
+  "idf.port": "/dev/ttyUSB0",
+  "idf.espIdfPath": "/home/tiago/esp/esp-idf",
+  "idf.toolsPath": "/home/tiago/.espressif",
+  "idf.pythonInstallPath": "/usr/bin/python3",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32s2"
+  },
+  "clangd.path": "/home/tiago/.espressif/tools/esp-clang/esp-20.1.1_20250829/esp-clang/bin/clangd",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=/home/tiago/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s2-elf-gcc",
+    "--compile-commands-dir=/home/tiago/esp/esp32_fireplace_controller/build"
+  ],
+  "idf.flashType": "UART"
+}

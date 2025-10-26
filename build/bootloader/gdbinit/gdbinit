@@ -1,0 +1,2 @@
+source /home/tiago/esp/esp32_fireplace_controller/build/bootloader/gdbinit/symbols
+source /home/tiago/esp/esp32_fireplace_controller/build/bootloader/gdbinit/connect

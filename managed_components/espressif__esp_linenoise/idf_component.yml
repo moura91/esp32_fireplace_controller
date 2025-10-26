@@ -1,0 +1,8 @@
+description: ESP Linenoise - Line editing C library
+license: Apache-2.0
+repository: git://github.com/espressif/idf-extra-components.git
+repository_info:
+  commit_sha: c9fe5dd183187adc3f976a6a2bb72d3b045635eb
+  path: esp_linenoise
+url: https://github.com/espressif/idf-extra-components/tree/master/esp_linenoise
+version: 1.0.0
