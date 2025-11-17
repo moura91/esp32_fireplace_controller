@@ -876,6 +876,15 @@ CONFIG_PARTITION_TABLE_MD5=y
 # end of Partition Table
 
 #
+# Network Configuration
+#
+CONFIG_WIFI_SSID="Vodafone-D9F322"
+CONFIG_WIFI_PASSWORD="U4UBUtz5MQ"
+# default:
+CONFIG_MQTT_BROKER_URI="mqtt://test.mosquitto.org"
+# end of Network Configuration
+
+#
 # Compiler options
 #
 # default:

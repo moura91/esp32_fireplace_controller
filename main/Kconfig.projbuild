@@ -1,0 +1,19 @@
+menu "Network Configuration"
+
+    config WIFI_SSID
+        string "Wi-Fi SSID"
+        help
+            SSID (network name) of the Wi-Fi access point.
+
+    config WIFI_PASSWORD
+        string "Wi-Fi Password"
+        help
+            Password for the Wi-Fi network.
+
+    config MQTT_BROKER_URI
+        string "MQTT Broker URI"
+        default "mqtt://test.mosquitto.org"
+        help
+            MQTT broker address.
+
+endmenu

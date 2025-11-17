@@ -15,5 +15,8 @@
     "--query-driver=/home/tiago/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s2-elf-gcc",
     "--compile-commands-dir=/home/tiago/esp/esp32_fireplace_controller/build"
   ],
-  "idf.flashType": "UART"
+  "idf.flashType": "UART",
+  "files.associations": {
+    "wifi.h": "c"
+  }
 }
