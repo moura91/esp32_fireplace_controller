@@ -37,10 +37,10 @@ The system also reads **temperature and humidity** using a **DHT11 sensor**, pub
 | **Android MQTT App** | MQTT control dashboard on Android |
 
 ## Build & Flash
-idf.py menuconfig --> Configure WiFi SSID, Password and MQTT Broker URI
-idf.py set-target esp32s2
-idf.py build
-idf.py flash monitor
+1. idf.py menuconfig --> Configure WiFi SSID, Password and MQTT Broker URI
+2. idf.py set-target esp32s2
+3. idf.py build
+4. idf.py flash monitor
 
 ## Next Steps
 - Secure broker with TLS & authentication
