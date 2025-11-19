@@ -1,4 +1,5 @@
-#include "esp_err.h"
+#include "mqtt_client.h"
 
-esp_err_t mqtt_app_start(void);
-esp_err_t mqtt_publish(const char *topic, const char *message);
+extern esp_mqtt_client_handle_t mqtt_client;  // declare the global symbol
+
+void mqtt_start(void);

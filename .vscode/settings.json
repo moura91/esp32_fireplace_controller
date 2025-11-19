@@ -17,6 +17,7 @@
   ],
   "idf.flashType": "UART",
   "files.associations": {
-    "wifi.h": "c"
+    "wifi.h": "c",
+    "esp_idf_lib_helpers.h": "c"
   }
 }
